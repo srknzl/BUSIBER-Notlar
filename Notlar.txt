@@ -80,6 +80,7 @@ Nessus Automated vulnerabilty tool
 
 openVAS alternative for nessus
 
+
 unleashed metasploit
 
 ruby dili open source ==> metasploit 
@@ -136,4 +137,5 @@ Araya girip modifiye edebiliyorsa zafiyet
 OTP bypass = Brute force yöntemiyle geçmek 
 
 evilginx 2 factor authentication bypass
+
 
