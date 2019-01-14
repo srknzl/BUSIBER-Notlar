@@ -1,0 +1,13 @@
+Information Gathering 
+
+site: şeklinde arama 
+inurl: 
+site: *.mastercard.com
+exploit db sitesinde google search ler var 
+
+
+siteler:
+
+shodan
+
+webcams
