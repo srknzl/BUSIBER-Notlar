@@ -1,0 +1,76 @@
+False positive - Zafiyet olmamasına rağmen var demek
+Manuel kabiliyetleri geliştirmekte fayda var.
+Her şey bilgi kaynağı olabilir. Pdf ler ve videolar.
+Metadatalardan hangi sürüm çalışıyor şeklinde.
+İş ilanlarına bakmak. Hangi teknolojileri kullanıyorlar.
+Her alana yönelmek gerekiyor. Mobil,web socail enginnering.
+Birni seçip diğerlerinde gelişmemek olmuyor.
+Bilgi toplarken whois bilgileri kullanılabilir.
+Sosyal medya.
+Google bilgi toplama
+
+inurl:
+filetype:
+intitle:
+
+Zone transfer dns kayıtları transfer için kullanıyor ama
+düzgün config edilmezse tüm kayıtlar alınabilir.
+
+dig NS boun.edu.tr
+
+zonetransfer.me --free zone transferable site
+
+fierce -dns address 
+
+Ağ yöneticileri derneği yazın açtığı ağ kursuna bakabilirsiniz 300tl
+
+theharvester - subdomain ve dışarı açık e postalar için
+knockpy - (python) brute force subdomain tool
+sublist3er - benzer subdomain enumeration tool
+exiftool - metadata checker for files 
+flicker sitesi metadata yı silmez diğerleri siliyor.
+foca -- dökümanları bulup indirmek için
+
+Ağ - Kablosuz Yerel İnternet
+Donanım -> IOT
+Web 
+Mobil
+Scada
+
+Burp Suite proxy zafiyet tarayıcı
+Openvas
+Blackarch Linux
+
+Lisanslı 
+Acunetix
+Nessus
+Netsparker
+Burp Suite
+
+
+nmap 
+-iL iplist.txt 
+--open - just open ports
+--top-ports 500
+-oA normal/grepable/xml
+-oG grepable
+-oX xml
+-oN normal
+
+enum4linux
+
+
+
+
+
+
+
+
+
+
+Bulgular:
+1-ghdb Default parola kullanarak admin panellerine 
+yetkisiz erişim
+2- Metadata ve e-mail ifşası : Sebep kaynak kodda yazılma
+
+
