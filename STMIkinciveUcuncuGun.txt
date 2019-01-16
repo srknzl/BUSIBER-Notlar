@@ -59,12 +59,30 @@ nmap
 
 enum4linux
 
+SNMP Keşfi
+Management Information Base
+snmp walk onesixtyone
 
 
+msdb init 
+service postgresql start
+msfconsole
+workspace -a test
+db_import path to xml
 
+------
 
+Ne zaman meterpreter kullanabiliyorsan
+ onu seç çünkü çok güçlü
 
+mimikatz, kiwi, hashdump  -- şifre almak için
+incognito  -- session token switcher
 
+sessions -k 1     -- session kapatma
+sessions -i 1     -- backgrounddakini uyandır
+background        -- şuanki session ı geri plana at.
+
+Pass the hash metodu hash vererek giriş yapmak windowsta.
 
 
 
